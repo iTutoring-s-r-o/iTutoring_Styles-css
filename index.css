@@ -1,0 +1,635 @@
+/************************** 
+/ List of general styles
+/
+*/
+
+:root {
+    --t-nb-width: 10vw;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Dynamic properties, need to be changed with resolution 
+/
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 749px) and (orientation : portrait) {
+    .text-header1 {
+        font-size: 8.3vw;
+    }
+
+    .text-header2 {
+        font-size: 7.4vw;
+    }
+
+    .text-p {
+        font-size: 3.6vw;
+    }
+
+    .text-p2 {
+        font-size: 3.2vw;
+    }
+
+    .text-li {
+        font-size: 4vw;
+    }
+
+    /* Selects */
+
+    .select-scroll {
+        overflow-y: scroll;
+        size: 7;
+    }
+
+    .select-scroll::-webkit-scrollbar {
+        border-radius: 1vw;
+        width: 2vw;
+    }
+
+    .select-scroll::-webkit-scrollbar-thumb {
+        border-radius: 2vw;
+    }
+
+    .select-scroll option {
+        font-size: 4vw;
+    }
+
+    .select {
+        font-size: 4vw;
+        border-radius: 1vw;
+    }
+
+    .select option {
+        font-size: 5vw;
+    }
+
+    /* Inputs */
+    .checkbox {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .input {
+        font-size: 3vw;
+        max-width: 58vw;
+    }
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 749px) and (orientation : landscape) {
+    .text-header1 {
+        font-size: 2.5vw;
+    }
+
+    .text-header2 {
+        font-size: 2.08vw;
+    }
+
+    .text-p {
+        font-size: 1.2vw;
+    }
+
+    .text-p2 {
+        font-size: 0.8vw;
+    }
+
+    /* Selects */
+
+
+    .select-scroll::-webkit-scrollbar {
+        border-radius: 5vw;
+        width: 1vw;
+    }
+
+    .select-scroll::-webkit-scrollbar-thumb {
+        border-radius: 5vw;
+    }
+
+    .select-scroll option {
+        font-size: 1.7vw;
+    }
+
+    .select {
+        font-size: 1.5vw;
+        border-radius: 0.5vw;
+    }
+
+    .select option {
+        font-size: 1.5vw;
+    }
+
+    /* Inputs */
+    .checkbox {
+        width: 1.3vw;
+        height: 1.3vw;
+    }
+
+    .input {
+        font-size: 1vw;
+        max-width: 16vw;
+    }
+
+}
+
+
+/* Tablets/Small laptops (portrait) ----------- */
+@media only screen and (min-width : 749px) and (max-width : 1138px) and (orientation : portrait) {
+    .text-header1 {
+        font-size: 5vw;
+    }
+
+    .text-p {
+        font-size: 2.4vw;
+    }
+
+    .text-p2 {
+        font-size: 2.2vw;
+    }
+
+    .select-scroll::-webkit-scrollbar {
+        border-radius: 1vw;
+        width: 2vw;
+    }
+
+    .select-scroll::-webkit-scrollbar-thumb {
+        border-radius: 2vw;
+    }
+
+    .select-scroll option {
+        font-size: 3.6vw;
+    }
+
+    .select {
+        font-size: 3.6vw;
+        border-radius: 1vw;
+    }
+
+    .select option {
+        font-size: 3vw;
+    }
+
+    /* Inputs */
+    .checkbox {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .input {
+        font-size: 2vw;
+        max-width: 35vw;
+    }
+}
+
+/* Tablets/Small laptops (landscape) ----------- */
+@media only screen and (min-width : 749px) and (max-width : 1138px) and (orientation : landscape) {
+    .text-header1 {
+        font-size: 2.5vw;
+    }
+
+    .text-header2 {
+        font-size: 2.08vw;
+    }
+
+    .text-p {
+        font-size: 1.2vw;
+    }
+
+    .text-p2 {
+        font-size: 0.9vw;
+    }
+
+    /* Selects */
+
+    .select-scroll::-webkit-scrollbar {
+        border-radius: 5vw;
+    }
+
+    .select-scroll::-webkit-scrollbar-thumb {
+        border-radius: 5vw;
+    }
+
+    .select-scroll option {
+        font-size: 2.4vw;
+    }
+
+    .select {
+        font-size: 2vw;
+        border-radius: 0.5vw;
+    }
+
+    .select option {
+        font-size: 1.5vw;
+    }
+
+    /* Inputs */
+    .checkbox {
+        width: 1.3vw;
+        height: 1.3vw;
+    }
+
+    .input {
+        font-size: 1vw;
+        max-width: 16vw;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1138px) {
+    .text-header1 {
+        font-size: 2.5vw;
+    }
+
+    .text-header2 {
+        font-size: 2.08vw;
+    }
+
+    .text-p {
+        font-size: 1.2vw;
+    }
+
+    .text-p2 {
+        font-size: 0.8vw;
+    }
+
+    .text-li {
+        font-size: 1.5vw;
+    }
+
+
+    /* Selects */
+
+
+    .select-scroll::-webkit-scrollbar {
+        border-radius: 5vw;
+    }
+
+    .select-scroll::-webkit-scrollbar-thumb {
+        border-radius: 5vw;
+    }
+
+    .select-scroll option {
+        font-size: 2vw;
+    }
+
+    .select {
+        font-size: 1.5vw;
+        border-radius: 0.5vw;
+    }
+
+    .select option {
+        font-size: 1.5vw;
+    }
+
+    /* Inputs */
+    .checkbox {
+        width: 1.3vw;
+        height: 1.3vw;
+    }
+
+    .input {
+        font-size: 1vw;
+        max-width: 16vw;
+    }
+}
+
+/* ----------- */
+
+
+/************************** 
+ Static properties, no need to change them with resolution 
+ ----------- */
+.section-background {
+    background-color: #fcddcf;
+}
+
+.text-color {
+    color: rgb(230, 88, 25);
+}
+
+.text-font {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+.text-header1 {
+    color: rgb(230, 88, 25);
+}
+
+.text-header2 {
+    color: rgb(230, 88, 25);
+}
+
+.text-p {
+    color: rgb(230, 88, 25);
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+.text-p2 {
+    color: rgb(230, 88, 25);
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+.text-li {
+    color: rgb(230, 88, 25);
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+.text-bold {
+    font-weight: 900;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-w-light {
+    font-weight: 100;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-input-error {
+    color: red;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-size: .9vw;
+    /* error is hidden on default */
+    display: none;
+}
+
+.text-input-success {
+    color: green;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-size: .9vw;
+    /* error is hidden on default */
+    display: none;
+}
+
+a {
+    color: rgb(230, 88, 25);
+    transition: 0.2s;
+}
+
+/** Buttons **/
+
+.btn:hover {
+    outline-color: rgb(230, 88, 25);
+    outline-width: 3px;
+    outline-style: solid;
+    animation: .5s BounceIn-ButtonHover forwards !important;
+}
+
+.btn:disabled:hover {
+    cursor: default;
+    outline: none;
+}
+
+.btn-selected {
+    outline-color: rgb(230, 88, 25) !important;
+    outline-width: 3px !important;
+    outline-style: solid !important;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%) !important;
+    color: black !important;
+}
+
+.btn {
+    transition: .2s;
+}
+
+/* Selects */
+
+.select-scroll {
+    color: rgb(230, 88, 25);
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-size: 5.8vw;
+    background-color: transparent;
+    border: hidden;
+    text-align: center;
+    outline: none;
+}
+
+.select-scroll option:disabled {
+    color: rgba(230, 87, 25, 0.26);
+}
+
+.select-scroll:focus {
+    border: hidden;
+    border-color: transparent;
+}
+
+.select-scroll::-webkit-scrollbar {
+    background-color: #ffebe2;
+    box-shadow: 5px 5px 30px 0 rgb(0 0 0 / 40%);
+}
+
+.select-scroll::-webkit-scrollbar-thumb {
+    background-color: rgb(230, 88, 25);
+}
+
+.select-scroll option:checked {
+    background: linear-gradient(0deg, #fed136 0%, #fed136 100%);
+    outline: none;
+    border: hidden;
+}
+
+.select-scroll option {
+    background-color: transparent;
+    border: hidden;
+}
+
+.select {
+    border: hidden;
+
+    color: rgb(230, 88, 25);
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+
+    background-color: #ffebe2;
+    border: hidden;
+    text-align: center;
+
+    outline-color: rgb(230, 88, 25);
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.select:focus {
+    outline-color: #fed136;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.select option:hover {
+    background: linear-gradient(0deg, #fed136 0%, #fed136 100%);
+    outline: none;
+    border: hidden;
+}
+
+.select option {
+    border: hidden;
+    background-color: transparent;
+}
+
+/* Inputs */
+.input {
+    outline-color: rgb(230, 88, 25);
+    outline-style: solid;
+    outline-width: 1px;
+
+    color: rgb(230, 88, 25);
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    background-color: #ffebe2;
+
+    border-radius: 1vh;
+    border: hidden;
+    padding: 1vh;
+
+    width: 300vw;
+
+    transition: .2s;
+}
+
+.input:focus {
+    outline-color: #fed136;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.input:disabled {
+    outline-color: #868e96;
+    outline-style: solid;
+    outline-width: 1px;
+    color: #6d6d6d;
+}
+
+.input:disabled::placeholder {
+    color: #868e9675;
+}
+
+.input:hover {
+    outline-color: #fed136;
+    outline-width: 3px;
+    outline-style: solid;
+}
+
+.input-style {
+    color: rgb(230, 88, 25);
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    background-color: #ffebe2;
+    border: hidden;
+}
+
+.input-style::placeholder {
+    color: rgba(230, 87, 25, 0.534);
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+}
+
+.input-error {
+    outline-color: red !important;
+    outline-width: 2px !important;
+    color: red !important;
+}
+
+.checkbox {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    outline-color: rgb(230, 88, 25);
+    outline-style: solid;
+    outline-width: 1px;
+
+    background-color: #ffebe2;
+    border-radius: 25%;
+
+    transition: .2s;
+}
+
+.checkbox:checked {
+    background-color: rgb(230, 88, 25);
+    border-radius: 50%;
+}
+
+.checkbox:focus {
+    outline-color: #fed136;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.checkbox:hover{
+    animation: BounceIn-Hover .5s forwards;
+}
+
+.text-area {
+    outline-color: rgb(230, 88, 25);
+    outline-style: solid;
+    outline-width: 1px;
+
+    color: rgb(230, 88, 25);
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    background-color: #ffebe2;
+}
+
+.text-area:focus {
+    outline-color: #fed136;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.text-area:disabled {
+    outline-color: #868e96;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+/* Colors */
+
+.page-bg-color {
+    background-color: #ffebe2;
+}
+
+/* Sizes */
+
+.page-min-h-100 {
+    min-height: 100%;
+}
+
+/* Broswer Scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(230, 88, 25);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fed136;
+}
+
+::-webkit-scrollbar-thumb:hover::-webkit-scrollbar {
+    width: 20px;
+}
+
+body {
+    overflow: overlay;
+    background-color: #fcddcf;
+}

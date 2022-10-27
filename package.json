@@ -1,0 +1,19 @@
+{
+  "name": "itutoring_styles-css",
+  "version": "1.0.0",
+  "description": "iTutoring default css styles",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iTutoring-s-r-o/iTutoring_Styles-css.git"
+  },
+  "author": "Tadeas Kaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iTutoring-s-r-o/iTutoring_Styles-css/issues"
+  },
+  "homepage": "https://github.com/iTutoring-s-r-o/iTutoring_Styles-css#readme"
+}

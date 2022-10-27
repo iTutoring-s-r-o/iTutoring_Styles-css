@@ -1,0 +1,215 @@
+@keyframes BounceIn {
+    0% {
+        transform: scale(0, 0);
+    }
+
+    10% {
+        transform: scale(1.2, 1.2);
+    }
+
+    20% {
+        transform: scale(0.8, 0.8);
+    }
+
+    40% {
+        transform: scale(1.1, 1.1);
+    }
+
+    60% {
+        transform: scale(0.95, 0.95);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes BounceIn-Hover {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    10% {
+        transform: scale(1.2, 1.2);
+    }
+
+    20% {
+        transform: scale(0.8, 0.8);
+    }
+
+    40% {
+        transform: scale(1.1, 1.1);
+    }
+
+    60% {
+        transform: scale(0.95, 0.95);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes BounceIn-ButtonHover {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    10% {
+        transform: scale(1.1, 1.1);
+    }
+
+    20% {
+        transform: scale(0.9, 0.9);
+    }
+
+    40% {
+        transform: scale(1.05, 1.05);
+    }
+
+    60% {
+        transform: scale(0.95, 0.95);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes BounceIn-FromLeft {
+    0% {
+        transform: translate(-200%, 0);
+    }
+
+    20% {
+        transform: translate(20%, 0);
+    }
+
+    30% {
+        transform: translate(-20%, 0);
+    }
+
+    50% {
+        transform: translate(10%, 0);
+    }
+
+    70% {
+        transform: translate(-10%, 0);
+    }
+
+    100% {
+        transform: translate(0%, 0);
+    }
+}
+
+@keyframes BounceIn-FromRight {
+    0% {
+        transform: translate(200%, 0);
+    }
+
+    20% {
+        transform: translate(-20%, 0);
+    }
+
+    30% {
+        transform: translate(20%, 0);
+    }
+
+    50% {
+        transform: translate(-10%, 0);
+    }
+
+    70% {
+        transform: translate(10%, 0);
+    }
+
+    100% {
+        transform: translate(0%, 0);
+    }
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+@keyframes PopIn {
+    0% {
+        transform: scale(0, 0);
+    }
+
+    20% {
+        transform: scale(0, 0);
+    }
+
+    50% {
+        transform: scale(0.2, 0.2);
+    }
+
+    80% {
+        transform: scale(0.5, 0.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/** On Scroll Triggers **/
+
+.BounceIn-FromLeft-BeforeState{
+    transform: translate(-200%, 0);
+}
+
+.BounceIn-FromLeft{
+    animation: 0.5s BounceIn-FromLeft 0.4s forwards;
+}
+
+
+
+.BounceIn-FromRight-BeforeState{
+    transform: translate(200%, 0);
+}
+
+.BounceIn-FromRight{
+    animation: 0.5s BounceIn-FromRight 0.4s forwards;
+}
+
+
+
+.BounceIn-BeforeState{
+    transform: scale(0, 0);
+}
+
+.BounceIn{
+    animation: 0.5s BounceIn 0.4s forwards;
+}
+
+
+.PopIn-BeforeState{
+    transform: scale(0, 0);
+}
+
+.PopIn{
+    animation: 0.1s PopIn 0.4s forwards;
+}
+
+
+
+.FadeIn-BeforeState{
+    opacity: 0;
+}
+
+.FadeIn{
+    animation: 0.3s FadeIn 0.4s forwards;
+}
+
+
+.BounceIn-FromLeft{
+    animation: 0.5s BounceIn-FromLeft 0s forwards;
+}
