@@ -3,6 +3,9 @@
 /
 */
 
+/* Include animations */
+@import url('Showing.css');
+
 :root {
     --t-nb-width: 10vw;
 }
