@@ -1,5 +1,5 @@
 {
-  "name": "itutoring_styles-css",
+  "name": "@itutoring/itutoring_styles-css",
   "version": "1.0.0",
   "description": "iTutoring default css styles",
   "main": "index.css",
