@@ -319,16 +319,19 @@ body {
 
 .text-header1 {
     color: rgb(230, 88, 25);
+    font-weight: 500;
 }
 
 .text-header2 {
     color: rgb(230, 88, 25);
+    font-weight: 500;
 }
 
 .text-p {
     color: rgb(230, 88, 25);
     font-family: Montserrat, sans-serif;
     font-style: normal;
+     font-weight: 300;
 }
 
 .text-p2 {
@@ -344,7 +347,7 @@ body {
 }
 
 .text-bold {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .text-center {
@@ -352,7 +355,7 @@ body {
 }
 
 .text-w-light {
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .text-underline {
@@ -377,9 +380,25 @@ body {
     display: none;
 }
 
+.input::placeholder{
+    font-weight: 400 !important;
+}
+
+.text-area::placeholder{
+    font-weight: 400 !important;
+}
+
 a {
     color: rgb(230, 88, 25);
     transition: 0.2s;
+}
+
+strong {
+    font-weight: 600 !important;
+}
+
+b{
+    font-weight: 600 !important;
 }
 
 /** Buttons **/
@@ -491,7 +510,7 @@ a {
 
     color: rgb(230, 88, 25);
     font-family: Montserrat, sans-serif;
-    font-weight: lighter;
+    font-weight: 400;
     background-color: #ffebe2;
 
     border-radius: 1vh;
@@ -529,7 +548,7 @@ a {
 .input-style {
     color: rgb(230, 88, 25);
     font-family: Montserrat, sans-serif;
-    font-weight: lighter;
+    font-weight: 300;
     background-color: #ffebe2;
     border: hidden;
 }
@@ -537,7 +556,7 @@ a {
 .input-style::placeholder {
     color: rgba(230, 87, 25, 0.534);
     font-family: Montserrat, sans-serif;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .input-error {
@@ -582,7 +601,7 @@ a {
 
     color: rgb(230, 88, 25);
     font-family: Montserrat, sans-serif;
-    font-weight: lighter;
+    font-weight: 300;
     background-color: #ffebe2;
 }
 
