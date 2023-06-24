@@ -240,7 +240,7 @@ body {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1138px) {
+@media only screen and (min-width : 1138px) and (max-width : 2000px) {
     .text-header1 {
         font-size: 2.5vw;
     }
@@ -298,6 +298,65 @@ body {
     }
 }
 
+/* Ultra wide monitors */
+@media only screen and (min-width : 2000px) {
+    .text-header1 {
+        font-size: 41px;
+    }
+
+    .text-header2 {
+        font-size: 35px;
+    }
+
+    .text-p {
+        font-size: 22px;
+    }
+
+    .text-p2 {
+        font-size: 18px;
+    }
+
+    .text-li {
+        font-size: 25px;
+    }
+
+
+    /* Selects */
+
+
+    .select-scroll::-webkit-scrollbar {
+        border-radius: 5vw;
+    }
+
+    .select-scroll::-webkit-scrollbar-thumb {
+        border-radius: 5vw;
+    }
+
+    .select-scroll option {
+        font-size: 2vw;
+    }
+
+    .select {
+        font-size: 24px;
+        border-radius: 0.5vw;
+    }
+
+    .select option {
+        font-size: 24px;
+    }
+
+    /* Inputs */
+    .checkbox {
+        width: 1.3vw;
+        height: 1.3vw;
+    }
+
+    .input {
+        font-size: 20px;
+        max-width: 16vw;
+    }
+}
+
 /* ----------- */
 
 
@@ -331,7 +390,7 @@ body {
     color: rgb(230, 88, 25);
     font-family: Montserrat, sans-serif;
     font-style: normal;
-     font-weight: 300;
+    font-weight: 300;
 }
 
 .text-p2 {
@@ -380,11 +439,11 @@ body {
     display: none;
 }
 
-.input::placeholder{
+.input::placeholder {
     font-weight: 400 !important;
 }
 
-.text-area::placeholder{
+.text-area::placeholder {
     font-weight: 400 !important;
 }
 
@@ -397,7 +456,7 @@ strong {
     font-weight: 600 !important;
 }
 
-b{
+b {
     font-weight: 600 !important;
 }
 
@@ -590,7 +649,7 @@ b{
     outline-width: 1px;
 }
 
-.checkbox:hover{
+.checkbox:hover {
     animation: BounceIn-Hover .5s forwards;
 }
 
