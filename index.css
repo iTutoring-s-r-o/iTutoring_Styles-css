@@ -714,3 +714,13 @@ body {
     overflow: overlay;
     background-color: #fcddcf;
 }
+
+.link{
+    font-weight: 600 !important;
+    font-style: italic !important;
+    text-decoration: none !important;
+}
+
+.link:hover{
+    text-decoration: none;
+}
